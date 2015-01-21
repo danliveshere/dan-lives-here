@@ -1,0 +1,349 @@
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 { 
+    font-family:"Lato";
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #070707;
+    padding-top: 100px;
+}
+
+h2 {
+   font-family:"Lato";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family: "Lato";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+p
+{
+    font-family: "lato";
+    font-size: 40px;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    font-family: "Lato";
+    
+}
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+	width: 100%; 
+	background: url('../img/header-bg.png'); 
+	height: 80px; 	
+	position: fixed;
+	margin-top: 10px;
+}
+
+
+/* newcode */
+
+#nav { width: 960px; float: right; margin-top: 20px; }
+
+#nav ul{
+	list-style: none;
+	display: inline-block;
+	margin: 0 auto;
+	list-style: none;	
+    margin-left: 50px;'
+}
+
+#nav ul li{
+	margin-top: 9px;	
+	float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#nav li a 
+{ 
+    color: #fff; 
+    opacity:0.6; 
+    font-size: 16px; 
+    text-decoration: none; 
+    font-family: 'Roboto'; 
+    font-weight: 100;}
+
+#nav li a.active 
+{ 
+    color: #02c8d0; 
+    opacity:1;
+}
+
+#nav li a:hover 
+{ 
+    color: #fff; 
+    opacity:1;
+   
+}
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1{
+	background:url('../img/girl-with-gun.png') 50% 0 no-repeat fixed;
+	color: #fff;
+    width:100%;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background:url(../img/web-icon-banner.png) no-repeat fixed;
+    background-size: 100%;
+    width:100%;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #000;
+	background-size: cover;
+}
+
+#slide3{
+	background: url(../img/video-banner.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide4{
+	background: url(../img/textured-background.png) fixed;
+	color: #333333;
+	height: 300px;
+	padding-top: 100px;
+    padding-bottom: 280px;
+}
+
+#slide5{
+    background: url(../img/danbydanbanner.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide6{
+    background-color: #FFF;
+	height: 200px;
+	margin: 0 auto;
+	padding-top:50px;
+    padding-bottom: 400px;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide7
+{
+    background: url(../img/textured-background.png) fixed;
+	color: #333333;
+	height: 300px;
+	padding-top: 100px;
+    padding-bottom: 280px;
+}
+
+#slide0
+{
+    background: url(../img/textured-background.png) fixed;
+	height: 500px;
+	padding-top: 150px;
+}
+    
+
+#video-text
+{
+   border-style: solid;
+    border-width: 5px;
+    font-size: 100px;
+    width:320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+  
+}
+
+#logo-text
+{
+   border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+    color:#000;
+    font-size: 60px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logo
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    width:70px;
+    height:30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: solid 3px;
+    padding:3px;
+}
+
+#sites-link
+{
+    width:130px;
+    color:#9a93d0;
+}
+
+#sites-link a
+{
+    color: #9a93d0;
+     transition: background-color 1s;
+}
+
+#sites-link a:hover
+{
+    background-color:#9a93d0;
+    color:#fff;
+}
+
+#vid-link
+{
+
+    width:141px;
+    color:#eb9449;
+}
+
+#vid-link a
+{
+    color:#eb9449;
+    transition: background-color 1s;
+}
+
+
+#vid-link a:hover
+{
+    color: #fff;
+    background-color: #eb9449;
+}
+#sites-list ul
+{
+    list-style: none;
+    display:inline-block;
+    width: 1000px;
+}
+
+#sites-list ul li
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#sites-list ul li a:hover
+{
+    border: solid 3px;
+}
+
+
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #fff;  }
+
+#footer
+{
+	text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    padding-top: 5px;
+    width:100%;
+    background:#FFF;
+    opacity: .5;
+}
+
+.footer-social /* position of facebook and twitter buttons in footer */
+{
+    width: 300px;
+    margin-left: auto; /* Keep centred */
+    margin-right: auto;/* Keep centred */
+}
+
+.social-button
+{
+    margin-left: auto; /* Keep centred */
+    margin-right: auto;/* Keep centred */
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity:0.7;
+}
+
+.social-button:hover /* changes opacity for roll-pver effect */
+{
+    opacity:1;
+}
